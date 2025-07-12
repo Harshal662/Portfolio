@@ -25,12 +25,12 @@ gsap.to(letters, {
       });
       gsap.to(el, {
         color: "rgba(255,255,255,0.1)",
-        duration: 0.3,
+        duration: 0.4,
         delay: i * 0.05 + 0.4,
       });
       gsap.to(el.querySelector("::after"), {
         opacity: 1,
-        duration: 0.3,
+        duration: 0.4,
         delay: i * 0.05,
       });
     });
